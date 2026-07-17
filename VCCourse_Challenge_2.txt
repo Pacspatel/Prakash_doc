@@ -1,0 +1,18 @@
+Person_1 = input('Enter your name: ')
+
+print("Hi " + Person_1 + 
+      "! Let's calculate how much time you have spent alive.")
+
+Years_1 = int(input('Enter your age in years: '))
+
+print("Your current age is " + str(Years_1) + " years.")
+
+Total_Months_1 = Years_1 * 12
+# Each year contains 12 months
+
+Total_Days_1 = Years_1 * 365
+# Each year contains approximately 365 days
+
+print(Person_1 + " has lived approximately " +
+      str(Total_Months_1) + " months and " +
+      str(Total_Days_1) + " days.")
